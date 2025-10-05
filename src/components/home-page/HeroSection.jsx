@@ -2,6 +2,9 @@ import Marquee from 'react-fast-marquee';
 import Brand1 from '../../assets/brand1.png';
 import Brand2 from '../../assets/brand2.png';
 import Brand3 from '../../assets/brand3.png';
+import Starpng from '../../assets/button-star.png';
+import heroGif from '../../assets/hero-logo.gif';
+import heroText from '../../assets/hero-text.gif';
 
 
 export default function HeroSection() {
@@ -17,7 +20,7 @@ export default function HeroSection() {
               <h1 className=" text-5xl sm:text-7xl font-medium leading-tight">
                 Expert to Digitalise Your{' '}
                 <span>
-                  <img className="w-[200px] sm:w-fit mt-2" src="/src/assets/hero-text.gif" alt="hero-text" />
+                  <img className="w-[200px] sm:w-fit mt-2" src={heroText} alt="hero-text" />
                 </span>
               </h1>
               <br />
@@ -25,7 +28,7 @@ export default function HeroSection() {
               <br />
               <button className="flex items-center gap-2 py-4 px-5 rounded-full text-white btn-gradient">
                 <span>
-                  <img className="w-6" src="/src/assets/button-star.png" alt="button-star" />
+                  <img className="w-6" src={Starpng} alt="button-star" />
                 </span>
                 Explore Now
               </button>
@@ -33,7 +36,7 @@ export default function HeroSection() {
 
             {/* Right Content */}
             <div className="w-full lg:w-7/12 overflow-hidden flex justify-center">
-              <img className="scale-150 w-full h-full" src="/src/assets/hero-logo.gif" alt="hero-logo" />
+              <img className="scale-150 w-full h-full" src={heroGif} alt="hero-logo" />
             </div>
           </div>
           {/* Brands Marquee */}

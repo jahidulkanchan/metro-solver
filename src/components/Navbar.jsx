@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-
+import logo from '../assets/logo.png';
+import cart from '../assets/cart.png';
+import profile from '../assets/profile.png';
 export default function Navbar() {
   const [servicesOpen, setServicesOpen] = useState(false);
 
@@ -8,7 +10,7 @@ export default function Navbar() {
       <div className="container">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <img src="/src/assets/logo.png" alt="" />
+            <img src={logo} alt="" />
           </div>
 
           {/* Navigation Links */}
@@ -54,8 +56,8 @@ export default function Navbar() {
           </div>
           {/* Customer Profile */}
           <div className="profile-content hidden md:flex justify-center items-center gap-5">
-            <div className="cart cursor-pointer"><img src="/src/assets/cart.png" alt="" /></div>
-            <div className="profile cursor-pointer"><img src="/src/assets/profile.png" alt="" /></div>
+            <div className="cart cursor-pointer"><img src={cart} alt="" /></div>
+            <div className="profile cursor-pointer"><img src={profile} alt="" /></div>
           </div>
         </div>
       </div>

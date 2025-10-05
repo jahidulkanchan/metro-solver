@@ -1,6 +1,8 @@
 import locationIco from '../assets/location.png';
 import phoneIco from '../assets/phoneIco.png';
 import mailIco from '../assets/mail.png';
+import starPng from '../assets/button-star.png';
+import footerLogo from '../assets/footer-logo.png';
 
 export default function Footer() {
   return (
@@ -11,7 +13,7 @@ export default function Footer() {
           <div className="email-subscribtion-content">
             <div className="w-full min-h-[300px] py-14 px-5 bg-white/5 rounded-[60px]">
               <div className="footer-logo w-fit mx-auto">
-                <img src="/src/assets/Footer-logo.png" alt="footer-logo" />
+                <img src={footerLogo} alt="footer-logo" />
               </div>
               <div className="email-form flex flex-col md:flex-row mt-10 justify-between px-10 items-center">
                 <div className="left-content">
@@ -23,7 +25,7 @@ export default function Footer() {
                     <input type="email" name="email" id="email" placeholder="Enter your email" />
                     <button className="flex btn-gradient text-white py-2 md:py-4 px-5 rounded-full justify-center items-center gap-2">
                       <span>
-                        <img className="w-[24px]" src="/src/assets/button-star.png" alt="button-star" />
+                        <img className="w-[24px]" src={starPng} alt="button-star" />
                       </span>{' '}
                       Subscribe
                     </button>
@@ -121,7 +123,7 @@ export default function Footer() {
                       </a>
                     </li>
                     <li>
-                      <a href="https://api.whatsapp.com/send/?phone=917424845076" className="hover:text-white">
+                      <a href="" className="hover:text-white">
                         Blog
                       </a>
                     </li>
