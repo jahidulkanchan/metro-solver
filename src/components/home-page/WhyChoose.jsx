@@ -13,6 +13,7 @@ import Project12 from '/src/assets/image11.png';
 import Project13 from '/src/assets/image12.png';
 import Project14 from '/src/assets/image13.png';
 import Marquee from 'react-fast-marquee';
+import star from '/src/assets/button-star.png';
 
 export default function WhyChoose() {
   return (
@@ -71,7 +72,7 @@ export default function WhyChoose() {
               <br />
               <button className="flex items-center gap-2 py-4 px-5 rounded-full text-white btn-gradient">
                 <span>
-                  <img className="w-6" src="/src/assets/button-star.png" alt="button-star" />
+                  <img className="w-6" src={star} alt="button-star" />
                 </span>
                 Book Now
               </button>
