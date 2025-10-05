@@ -8,7 +8,7 @@ export default function TestimonialCard() {
       <div className="flex items-center space-x-4 mb-4">
         <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full flex items-center justify-center text-white font-semibold text-lg">KJ</div>
         <div>
-          <h3 className="font-semibold text-gray-900">Katie Johnson</h3>
+          <h3 className="font-semibold">Katie Johnson</h3>
           <p className="text-sm">Founder of Strava</p>
         </div>
       </div>

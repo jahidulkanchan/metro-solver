@@ -11,12 +11,12 @@ export default function MainLayout() {
   return (
     <>
       <HeroSection/>
-      <WhyChoose/>
-      <MapSection/>
-      <TestimonialSection/>
-      <CounterSection/>
-      <VideoSection/>
       <ServiceSection/>
+      <WhyChoose/>
+      <VideoSection/>
+      <CounterSection/>
+      <TestimonialSection/>
+      <MapSection/>
     </>
   )
 }

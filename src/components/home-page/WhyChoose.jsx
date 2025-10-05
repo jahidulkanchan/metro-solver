@@ -17,7 +17,9 @@ import Marquee from 'react-fast-marquee';
 export default function WhyChoose() {
   return (
     <>
-      <section className="bg-black text-white py-20">
+      <section className="bg-black text-white py-20 relative">
+        <div className="bg-circle-shape right-0 top-[-200px] absolute h-[800px] w-[800px] mx-auto  blur-3xl z-[10] bg-main/30 rounded-full"></div>
+        <div className="bg-circle-shape left-0 bottom-[200px] absolute h-[800px] w-[800px] mx-auto  blur-3xl z-[10] bg-main/30 rounded-full"></div>
         <div className="container mt-20 sm:mt-0 mx-auto flex flex-col justify-between">
           <div className="heading-text text-center md:text-left md:flex  mb-10">
             <h2 className="text-3xl md:text-6xl font-medium">Our Latest Works</h2>
@@ -25,7 +27,6 @@ export default function WhyChoose() {
               Based on the description of Metro Solver and the image provided, here is a 6-step process that Metro Solver uses to scale a customer's business.
             </p>
           </div>
-
           {/* Project Showcase */}
           <Marquee>
             <div className="flex-between gap-10 mx-10">
@@ -56,8 +57,9 @@ export default function WhyChoose() {
               <img src={Project13} alt="" />
               <img src={Project14} alt="" />
             </div>
-          </Marquee> <br /><br />
-
+          </Marquee>{' '}
+          <br />
+          <br />
           <div className="flex flex-col mt-20 lg:flex-row gap-14 lg:gap-0 justify-between items-center h-full">
             {/* Left Content */}
             <div className="w-full lg:w-5/12">

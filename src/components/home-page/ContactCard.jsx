@@ -3,7 +3,7 @@ import { FaMapMarkerAlt, FaPhone, FaHashtag } from 'react-icons/fa';
 
 export default function ContactCard() {
   return (
-    <div className="max-w-md mx-auto bg-card text-white rounded-2xl shadow-xl overflow-hidden">
+    <div className="max-w-md mx-auto bg-card/90 text-white rounded-2xl shadow-xl overflow-hidden">
       {/* Header Section */}
       <div className=" px-6 py-4">
         <h1 className="text-2xl font-bold text-white">#1 Metro solver</h1>

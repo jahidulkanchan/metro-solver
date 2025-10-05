@@ -53,7 +53,7 @@ export default function Navbar() {
             </a>
           </div>
           {/* Customer Profile */}
-          <div className="profile-content flex-center gap-5">
+          <div className="profile-content hidden md:flex justify-center items-center gap-5">
             <div className="cart cursor-pointer"><img src="/src/assets/cart.png" alt="" /></div>
             <div className="profile cursor-pointer"><img src="/src/assets/profile.png" alt="" /></div>
           </div>

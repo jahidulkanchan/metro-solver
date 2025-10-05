@@ -5,7 +5,7 @@ export default function MapSection() {
   return (
     <>
       <section className="bg-black relative">
-        <div className="absolute hidden md:block z-10 left-2/3 top-[50px] -translate-x-2/3">
+        <div className="absolute hidden md:block z-10 left-2/3 top-[150px] -translate-x-2/3">
           {' '}
           <ContactCard />
         </div>

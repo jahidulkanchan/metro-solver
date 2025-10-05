@@ -8,7 +8,8 @@ export default function HeroSection() {
   return (
     <>
       {/* ======== Hero Section Start ======== */}
-      <section className="bg-black text-white py-20">
+      <section className="bg-black text-white py-40 relative">
+        <div className="bg-circle-shape absolute h-[800px] w-[800px] mx-auto top-1/2 left-1/2 -translate-x-1/2 blur-3xl -translate-y-1/2 z-[10] bg-main/30 rounded-full"></div>
         <div className="container mt-20 sm:mt-0 mx-auto flex flex-col justify-between">
           <div className="flex flex-col lg:flex-row gap-14 lg:gap-0 justify-between items-center h-full">
             {/* Left Content */}
@@ -16,7 +17,7 @@ export default function HeroSection() {
               <h1 className=" text-5xl sm:text-7xl font-medium leading-tight">
                 Expert to Digitalise Your{' '}
                 <span>
-                  <img className='w-[200px] sm:w-fit mt-2' src="/src/assets/hero-text.gif" alt="hero-text" />
+                  <img className="w-[200px] sm:w-fit mt-2" src="/src/assets/hero-text.gif" alt="hero-text" />
                 </span>
               </h1>
               <br />
@@ -36,7 +37,7 @@ export default function HeroSection() {
             </div>
           </div>
           {/* Brands Marquee */}
-          {/* <Marquee className="py-4 min-h-[200px]">
+          <Marquee className="py-4 min-h-[200px]">
             <div className="flex-between">
               <img className="h-fit mx-8" src={Brand1} alt="" />
               <img className="h-fit mx-8" src={Brand2} alt="" />
@@ -45,7 +46,7 @@ export default function HeroSection() {
               <img className="h-fit mx-8" src={Brand2} alt="" />
               <img className="h-fit mx-8" src={Brand3} alt="" />
             </div>
-          </Marquee> */}
+          </Marquee>
         </div>
       </section>
       {/* ======== Hero Section End ======== */}
