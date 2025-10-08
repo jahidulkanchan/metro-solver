@@ -10,11 +10,9 @@ export default function TestimonialSection() {
     infinite: true,
     autoplay: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 2,
+    slidesToScroll: 2,
     initialSlide: 0,
-     nextArrow: null,
-    prevArrow: null,
     responsive: [
       {
         breakpoint: 1024,
@@ -28,9 +26,8 @@ export default function TestimonialSection() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
       {
@@ -45,7 +42,7 @@ export default function TestimonialSection() {
   return (
     <>
       <section className="bg-black text-white py-20">
-        <div className="container">
+        <div className="container px-10">
           <div className="heading-text text-center">
             <h2 className="text-3xl md:text-6xl font-medium">What People Say</h2>
             <p className="paratext mt-1 md:mt-3 max-w-xl mx-auto">Based on the description of Metro Solver and the image provided, here is a 6-step process that</p>

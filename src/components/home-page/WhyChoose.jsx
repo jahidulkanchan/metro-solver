@@ -19,8 +19,8 @@ export default function WhyChoose() {
   return (
     <>
       <section className="bg-black text-white py-20 relative">
-        <div className="bg-circle-shape right-0 top-[-200px] absolute h-[800px] w-[800px] mx-auto  blur-3xl z-[10] bg-main/30 rounded-full"></div>
-        <div className="bg-circle-shape left-0 bottom-[200px] absolute h-[800px] w-[800px] mx-auto  blur-3xl z-[10] bg-main/30 rounded-full"></div>
+        <div className="bg-circle-shape right-0 top-[-200px] absolute h-[800px] w-full md:w-[800px] mx-auto  blur-3xl z-[10] bg-main/30 rounded-full"></div>
+        <div className="bg-circle-shape left-0 bottom-[200px] absolute h-[800px] w-full md:w-[800px] mx-auto  blur-3xl z-[10] bg-main/30 rounded-full"></div>
         <div className="container mt-20 sm:mt-0 mx-auto flex flex-col justify-between">
           <div className="heading-text text-center md:text-left md:flex  mb-10">
             <h2 className="text-3xl md:text-6xl font-medium">Our Latest Works</h2>

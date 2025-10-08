@@ -8,24 +8,24 @@ export default function Footer() {
   return (
     <>
       <footer className="bg-black text-white relative">
-        <div className="bg-circle-shape absolute h-[800px] w-[800px] mx-auto top-1/2 left-1/2 -translate-x-1/2 blur-3xl -translate-y-1/2  z-[0] bg-main/30 rounded-full"></div>
+        <div className="bg-circle-shape absolute h-[800px] w-full md:w-[800px] mx-auto top-1/2 left-1/2 -translate-x-1/2 blur-3xl -translate-y-1/2  z-[0] bg-main/30 rounded-full"></div>
         <div className="container pt-30 z-[10] relative">
-          <div className="email-subscribtion-content">
-            <div className="w-full min-h-[300px] py-14 px-5 bg-white/5 rounded-[60px]">
+          <div className="email-subscribtion-content max-w-7xl mx-auto">
+            <div className="w-full min-h-[300px] py-14 px-5 bg-white/5 rounded-3xl md:rounded-[40px]">
               <div className="footer-logo w-fit mx-auto">
-                <img src={footerLogo} alt="footer-logo" />
+                <img className='w-[250px] sm:w-fit mx-auto' src={footerLogo} alt="footer-logo" />
               </div>
               <div className="email-form flex flex-col md:flex-row mt-10 justify-between px-10 items-center">
                 <div className="left-content">
-                  <h3 className="text-[40px]">Subscribe to Our Newsletter</h3>
-                  <p className="para-text">Join the 25000+ client, in our company</p>
+                  <h3 className="text-3xl font-medium md:text-4xl text-center md:text-left">Subscribe to Our Newsletter</h3>
+                  <p className="para-text text-center md:text-left">Join the 25000+ client, in our company</p>
                 </div>
                 <div className="right-content">
-                  <div className="email-content bg-white w-fit mt-5 md:mt-0 lg:min-w-[500px] text-black py-2 pl-5 pr-3 rounded-full flex-between">
-                    <input type="email" name="email" id="email" placeholder="Enter your email" />
+                  <div className="email-content bg-white w-[325px] sm:w-fit mt-5 md:mt-0 lg:min-w-[500px] text-black py-2 pl-5 pr-3 rounded-full flex-between">
+                    <input className='w-[150px]' type="email" name="email" id="email" placeholder="Enter your email" />
                     <button className="flex btn-gradient text-white py-2 md:py-4 px-5 rounded-full justify-center items-center gap-2">
                       <span>
-                        <img className="w-[24px]" src={starPng} alt="button-star" />
+                        <img className="w-[18px] md:w-[24px]" src={starPng} alt="button-star" />
                       </span>{' '}
                       Subscribe
                     </button>
@@ -221,7 +221,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="h-0.5 w-full bg-gradient-to-r from-[#361A67] via-[#1B1B31] to-[#412178]"></div>
+        <div className="h-[1px] sm:h-0.5 w-full bg-gradient-to-r from-[#361A67] via-[#1B1B31] to-[#412178]"></div>
         <div className="copy-right text-center md:text-left container py-8 md:flex justify-between items-center">
           <div className="left-content text-sm">@Metro Solver. All Rights Reserved 2024</div>
           <div className="right-content text-sm">Metro Solver Ltd incorporated in England & Wales Registration No:15792819</div>

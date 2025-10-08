@@ -6,11 +6,13 @@ import CounterSection from './components/home-page/CounterSection'
 import TestimonialSection from './components/home-page/TestimonialSection'
 import MapSection from './components/home-page/MapSection'
 import WhyChoose from './components/home-page/WhyChoose'
+import ContactForm from './components/home-page/ContactForm'
 
 export default function MainLayout() {
   return (
     <>
       <HeroSection/>
+      <ContactForm/>
       <ServiceSection/>
       <WhyChoose/>
       <VideoSection/>

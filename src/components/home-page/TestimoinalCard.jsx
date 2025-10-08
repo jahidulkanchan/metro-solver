@@ -1,9 +1,8 @@
-import React from 'react';
 import { FaStar, FaGoogle } from 'react-icons/fa';
 
 export default function TestimonialCard() {
   return (
-    <div className="max-w-md mx-5  md:mx-8 bg-card text-white rounded-xl shadow-lg overflow-hidden p-6">
+    <div className="max-w-md md:mx-8 bg-card text-white rounded-xl shadow-lg overflow-hidden p-6">
       {/* Header with Avatar and Info */}
       <div className="flex items-center space-x-4 mb-4">
         <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full flex items-center justify-center text-white font-semibold text-lg">KJ</div>
