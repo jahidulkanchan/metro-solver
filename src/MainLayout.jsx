@@ -12,12 +12,12 @@ export default function MainLayout() {
   return (
     <>
       <HeroSection/>
-      <ContactForm/>
       <ServiceSection/>
       <WhyChoose/>
       <VideoSection/>
       <CounterSection/>
       <TestimonialSection/>
+      <ContactForm/>
       <MapSection/>
     </>
   )
