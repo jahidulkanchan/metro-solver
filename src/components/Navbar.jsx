@@ -6,11 +6,11 @@ export default function Navbar() {
   const [servicesOpen, setServicesOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full z-[9999] bg-dark-bg/50 backdrop-blur-lg shadow-md py-3 sm:py-5">
+    <nav className="fixed w-full z-[9999] bg-dark-bg/50 backdrop-blur-lg shadow-md py-3 sm:py-4">
       <div className="container">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <img className='w-[100px] sm:w-fit' src={logo} alt="" />
+            <img className='w-[100px] sm:w-fit' src={logo} alt="logo" />
           </div>
 
           {/* Navigation Links */}
