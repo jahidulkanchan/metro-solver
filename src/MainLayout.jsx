@@ -13,10 +13,10 @@ export default function MainLayout() {
   return (
     <>
       <HeroSection/>
-      <WorkingProcess/>
-      <WhyChoose/>
       <ServiceSection/>
+      <WhyChoose/>
       <VideoSection/>
+      <WorkingProcess/>
       <CounterSection/>
       <TestimonialSection/>
       <ContactForm/>
