@@ -12,8 +12,8 @@ export default function MainLayout() {
   return (
     <>
       <HeroSection/>
-      <ServiceSection/>
       <WhyChoose/>
+      <ServiceSection/>
       <VideoSection/>
       <CounterSection/>
       <TestimonialSection/>

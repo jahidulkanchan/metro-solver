@@ -81,10 +81,22 @@ export default function WhyChoose() {
             {/* Right Content */}
             <div className="w-full lg:w-7/12 h-full flex justify-center">
               <div className="capusle-items flex justify-center items-center flex-col space-y-14">
-                <div className="capsule w-fit -rotate-6 bg-gradient-to-r from-[#0A111C] to-[#1A1A30]  px-8 rounded-full py-5 text-2xl md:text-5xl font-medium">Cancel Anytime</div>
-                <div className="capsule w-fit rotate-6 bg-gradient-to-r from-[#0A111C] to-[#1A1A30]  px-8 rounded-full py-5 text-2xl md:text-5xl font-medium">24/7 Customer Service</div>
-                <div className="capsule w-fit -rotate-6 bg-gradient-to-r from-[#0A111C] to-[#1A1A30]  px-8 rounded-full py-5 text-2xl md:text-5xl font-medium">Refers & Earn</div>
-                <div className="capsule bg-gradient-to-r from-[#0A111C] to-[#1A1A30]  px-8 rounded-full py-5 text-2xl md:text-5xl font-medium">Money Back Guarantee</div>
+                <div className="capsule group  overflow-hidden relative w-fit -rotate-6 bg-gradient-to-r from-[#0A111C] to-[#1A1A30]  px-8 rounded-full py-5 cursor-pointer text-2xl md:text-5xl font-medium">
+                  <div className="absolute duration-300 ease opacity-0 group-hover:opacity-70 left-0 top-0 z-[-1] bg-gradient-to-r from-blue-bg/40 from-0% via-dark-bg via-25% to-blue-bg/80 w-full h-full"></div>
+                  <span className="z-[2]">Cancel Anytime</span>
+                </div>
+                <div className="capsule group  overflow-hidden relative w-fit rotate-6 bg-gradient-to-r from-[#0A111C] to-[#1A1A30]  px-8 rounded-full py-5 cursor-pointer text-2xl md:text-5xl font-medium">
+                  <div className="absolute duration-300 ease opacity-0 group-hover:opacity-70 left-0 top-0 z-[-1] bg-gradient-to-r from-blue-bg/40 from-0% via-dark-bg via-25% to-blue-bg/80 w-full h-full"></div>
+                  <span className="z-[2]">24/7 Customer Service</span>
+                </div>
+                <div className="capsule group  overflow-hidden relative w-fit -rotate-6 bg-gradient-to-r from-[#0A111C] to-[#1A1A30]  px-8 rounded-full py-5 cursor-pointer text-2xl md:text-5xl font-medium">
+                  <div className="absolute duration-300 ease opacity-0 group-hover:opacity-70 left-0 top-0 z-[-1] bg-gradient-to-r from-blue-bg/40 from-0% via-dark-bg via-25% to-blue-bg/80 w-full h-full"></div>
+                  <span className="z-[2]">Refers & Earn</span>
+                </div>
+                <div className="capsule group  overflow-hidden relative w-fit rotate-0 bg-gradient-to-r from-[#0A111C] to-[#1A1A30]  px-8 rounded-full py-5 cursor-pointer text-2xl md:text-5xl font-medium">
+                  <div className="absolute duration-300 ease opacity-0 group-hover:opacity-70 left-0 top-0 z-[-1] bg-gradient-to-r from-blue-bg/40 from-0% via-dark-bg via-25% to-blue-bg/80 w-full h-full"></div>
+                  <span className="z-[2]">Money Back Guarantee</span>
+                </div>
               </div>
             </div>
           </div>
