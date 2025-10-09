@@ -7,11 +7,13 @@ import TestimonialSection from './components/home-page/TestimonialSection'
 import MapSection from './components/home-page/MapSection'
 import WhyChoose from './components/home-page/WhyChoose'
 import ContactForm from './components/home-page/ContactForm'
+import WorkingProcess from './components/home-page/WorkingProcess'
 
 export default function MainLayout() {
   return (
     <>
       <HeroSection/>
+      <WorkingProcess/>
       <WhyChoose/>
       <ServiceSection/>
       <VideoSection/>
